@@ -52,8 +52,13 @@ class MapScene extends egret.DisplayObjectContainer {
     }
     // 地图移动
     private mapMove(event:egret.TouchEvent){
-        event.target.x -= 5;
-        event.target.y -= 5;
+        console.log(event.target);
+        // event.target.x -= 5;
+        // event.target.y -= 5;
+        //计算出块的 索引，到map类里面去找到这个块，查看块属性，
+        //寻路
+        this.zhixian.x = event.localX
+        this.zhixian.y = event.localY
     }
     private createzhixian(tmxObject:tiled.TMXObject) {
         console.log('tmxObject',tmxObject);

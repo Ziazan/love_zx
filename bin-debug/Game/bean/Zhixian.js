@@ -47,6 +47,10 @@ var Zhixian = (function (_super) {
         this.bg.movieClipData = this.catMovieClip.normal.movieClipData;
         this.bg.play(-1);
     };
+    Zhixian.prototype.nextStep = function () {
+        //判断下一步能不能走  
+        this.hasNextStep = false;
+    };
     Zhixian.prototype.move = function (x, y) {
         console.log('x', x);
         console.log('y', y);

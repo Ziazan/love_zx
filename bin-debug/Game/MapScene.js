@@ -55,8 +55,13 @@ var MapScene = (function (_super) {
     };
     // 地图移动
     MapScene.prototype.mapMove = function (event) {
-        event.target.x -= 5;
-        event.target.y -= 5;
+        console.log(event.target);
+        // event.target.x -= 5;
+        // event.target.y -= 5;
+        //计算出块的 索引，到map类里面去找到这个块，查看块属性，
+        //寻路
+        this.zhixian.x = event.localX;
+        this.zhixian.y = event.localY;
     };
     MapScene.prototype.createzhixian = function (tmxObject) {
         var _this = this;
