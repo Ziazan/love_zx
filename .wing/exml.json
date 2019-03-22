@@ -1,0 +1,27 @@
+{
+    "1699a2d0e17": {
+        "path": "../resource/MainScene.ts",
+        "class": "MainScene",
+        "parentPath": ""
+    },
+    "1699a3a3ca5": {
+        "path": "../resource/skins/skins_item/mbtnPlayer.ts",
+        "class": "mbtnPlayer",
+        "parentPath": ""
+    },
+    "1699a9103c3": {
+        "path": "../resource/skins/skins_item/mbtnHero.ts",
+        "class": "mbtnHero",
+        "parentPath": ""
+    },
+    "1699a91d038": {
+        "path": "../resource/skins/skins_item/mbtnGoods.ts",
+        "class": "mbtnGoods",
+        "parentPath": ""
+    },
+    "1699a92d644": {
+        "path": "../resource/skins/skins_item/mbtnAbout.ts",
+        "class": "mbtnAbout",
+        "parentPath": ""
+    }
+}

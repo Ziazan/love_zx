@@ -1,0 +1,35 @@
+{
+  "engineVersion": "5.2.16",
+  "compilerVersion": "5.2.16",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    },
+    {
+        "name": "tiled",
+        "path": "./tiled/libsrc"
+    }
+  ]
+}
