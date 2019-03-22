@@ -57,8 +57,8 @@ class MapScene extends egret.DisplayObjectContainer {
         // event.target.y -= 5;
         //计算出块的 索引，到map类里面去找到这个块，查看块属性，
         //寻路
-        this.zhixian.x = event.localX
-        this.zhixian.y = event.localY
+        this.zhixian.x = event.localX - (this.zhixian.width / 2);
+        this.zhixian.y = event.localY - this.zhixian.height;
     }
     private createzhixian(tmxObject:tiled.TMXObject) {
         console.log('tmxObject',tmxObject);
